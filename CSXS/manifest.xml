@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ExtensionManifest ExtensionBundleId="com.my.test" ExtensionBundleVersion="1.0.0" Version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ExtensionList>
+    <Extension Id="com.my.test.panel" Version="0.0.1" />
+    <Extension Id="com.my.localserver" Version="0.0.1" />
+
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="AEFT" Version="[13.0,99.9]" />
+    </HostList>
+    <LocaleList>
+      <Locale Code="All" />
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="7.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.my.test.panel">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./index.html</MainPath>
+          <ScriptPath>./index.jsx</ScriptPath>
+          <CEFCommandLine>
+            <Parameter>--enable-nodejs</Parameter>
+            <Parameter>--mixed-context</Parameter>
+          </CEFCommandLine>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>Tweet Effects</Menu>
+          <Geometry>
+            <Size>
+              <Height>500</Height>
+              <Width>350</Width>
+            </Size>
+          </Geometry>
+          <Icons />
+        </UI>
+      </DispatchInfo>
+    </Extension>
+    <Extension Id="com.my.localserver">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./localServer.html</MainPath>
+            <CEFCommandLine>
+              <Parameter>--enable-nodejs</Parameter>
+              <Parameter>--mixed-context</Parameter>
+            </CEFCommandLine>
+        </Resources>
+      <Lifecycle>
+        <AutoVisible>false</AutoVisible>
+      </Lifecycle>
+      <UI>
+        <Type>Custom</Type>
+        <Geometry>
+    <Size>
+      <Height>600</Height>
+      <Width>600</Width>
+    </Size>
+  </Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
