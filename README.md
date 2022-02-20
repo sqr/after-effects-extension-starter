@@ -9,7 +9,7 @@
 
 Once the extension is open in After Effects, you can debug the frontend using Chrome Developer Tools by opening Chrome and navigating to `http://localhost:7777`.
 
-Debugging the JSX is much easier with the new [ExtendScript Debgger 2.0](https://community.adobe.com/t5/exchange-discussions/extendscript-debugger-2-0-news/td-p/12477923)
+Debugging the JSX is much easier with the new [ExtendScript Debugger 2.0](https://community.adobe.com/t5/exchange-discussions/extendscript-debugger-2-0-news/td-p/12477923)
 
 ## Description
 
