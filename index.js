@@ -16,7 +16,7 @@ alertButton.addEventListener("click", runAlert);
 
 // Write a helper function to pass instructions to the ExtendScript side.
 function runAlert() {
-  csInterface.evalScript("alert()");
+  csInterface.evalScript("sendAlert()");
 }
 
 var importButton = document.querySelector("#import-button");

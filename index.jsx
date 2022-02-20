@@ -1,6 +1,6 @@
 // Function that sends an alert in After Effects
-function alert() {
-    alert('Sample Alert')
+function sendAlert() {
+    alert("Custom Alert")
 }
 
 // Function that sends an alert with a custom message
