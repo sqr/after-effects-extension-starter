@@ -1,17 +1,15 @@
-function openDocument(location) {
-    alert(location)
+// Function that sends an alert in After Effects
+function alert() {
+    alert('Sample Alert')
 }
 
-function alerta() {
-    alert('Ahhh jarringui')
+// Function that sends an alert with a custom message
+function customAlert(alertMessage) {
+    alert(alertMessage)
 }
-
+// Function that imports a file into the current project.
 function openFile() {
-    var archivoRef = new File("I:/huffpost/2022/febrero/1_hipra.jpg")
-    var importOptions = new ImportOptions(archivoRef)
+    var fileRef = new File("C:/link/to/your/file.jpg")
+    var importOptions = new ImportOptions(fileRef)
     app.project.importFile(importOptions)
-}
-
-function openDocument2(location) {
-    alert(location)
 }
