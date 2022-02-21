@@ -23,7 +23,7 @@ It has three different elements. A client extension, that handles UI and makes r
 
 ## More Information
 
-This project has been built by thanks to the information contained in different guides, some outdated, some incomplete. In no particular order:
+This project has been built thanks to the information contained in different guides, some outdated, some incomplete. In no particular order:
 
 - https://medium.com/adobetech/how-to-build-a-node-js-server-in-a-panel-ba1d63ea67e2
 - https://medium.com/adobetech/how-to-create-your-first-adobe-panel-in-6-easy-steps-f8bd4ed5778
